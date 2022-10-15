@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".AddFragment">
+
+    <EditText
+        android:id="@+id/movie_name"
+        android:layout_margin="1dp"
+        android:layout_width="350dp"
+        android:layout_height="51dp"
+        android:background="@drawable/addbackground"
+        android:hint="Movie Name"/>
+
+    <EditText
+        android:id="@+id/movie_authors"
+        android:layout_margin="15dp"
+        android:layout_width="350dp"
+        android:layout_height="51dp"
+        android:background="@drawable/addbackground"
+        android:hint="Movie Authors"/>
+
+    <EditText
+        android:id="@+id/about_movie"
+        android:gravity="top"
+        android:layout_margin="15dp"
+        android:layout_width="350dp"
+        android:layout_height="212dp"
+        android:background="@drawable/addbackground"
+        android:hint="About Movie"/>
+
+    <EditText
+        android:id="@+id/movie_date"
+        android:layout_margin="15dp"
+        android:inputType="date"
+        android:layout_width="350dp"
+        android:layout_height="51dp"
+        android:background="@drawable/addbackground"
+        android:hint="Movie Date"/>
+
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:layout_gravity="right"
+        android:layout_margin="25dp"
+        android:backgroundTint="#66D6EF"/>
+
+</LinearLayout>
